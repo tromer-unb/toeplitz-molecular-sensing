@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "toeplitz-molecular-sensing"
+version = "0.1.0"
+description = "Reproducible implementation of an interpretable Toeplitz framework for sequence-dependent molecular sensing"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+  {name = "Raphael Matozo Tromer"},
+  {name = "Alysson Martins Almeida Silva"},
+  {name = "Rafael Rabelo Nunes"},
+  {name = "Ketankumar A. Ganure"},
+  {name = "Santosh K. Tiwary"},
+  {name = "Luiz Antonio Ribeiro Junior"},
+]
+dependencies = [
+  "numpy>=1.24,<3.0",
+  "matplotlib>=3.7,<4.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "ruff>=0.6,<1"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
