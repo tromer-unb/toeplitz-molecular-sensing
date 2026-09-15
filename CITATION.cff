@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated article."
+title: "Toeplitz Molecular Sensing"
+type: software
+authors:
+  - family-names: Tromer
+    given-names: Raphael Matozo
+  - family-names: Silva
+    given-names: Alysson Martins Almeida
+  - family-names: Nunes
+    given-names: Rafael Rabelo
+  - family-names: Ganure
+    given-names: Ketankumar A.
+  - family-names: Tiwary
+    given-names: Santosh K.
+  - family-names: Ribeiro Junior
+    given-names: Luiz Antonio
+repository-code: "https://github.com/tromer-unb/toeplitz-molecular-sensing"
+license: MIT
+version: 0.1.0
+date-released: 2026-09-15
+preferred-citation:
+  type: article
+  title: "A Unified Toeplitz Framework for Sequence-Dependent Molecular Sensing"
+  authors:
+    - family-names: Tromer
+      given-names: Raphael Matozo
+    - family-names: Silva
+      given-names: Alysson Martins Almeida
+    - family-names: Nunes
+      given-names: Rafael Rabelo
+    - family-names: Ganure
+      given-names: Ketankumar A.
+    - family-names: Tiwary
+      given-names: Santosh K.
+    - family-names: Ribeiro Junior
+      given-names: Luiz Antonio
+  journal: "Physical Chemistry Chemical Physics"
+  year: 2026
